@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: nyb_postgres_test
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
