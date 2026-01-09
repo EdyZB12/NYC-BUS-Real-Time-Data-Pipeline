@@ -1,0 +1,22 @@
+#Python 
+
+__pycahce__/
+*.pyc 
+*.pyo 
+.env
+
+# Airflow 
+
+logs/ 
+airflow-webserver.pid
+
+# Data 
+data/ 
+*.csv
+ 
+# Docker 
+*.logs
+
+# OS
+.DB_Store 
+Thumbs.db
